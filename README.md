@@ -3,7 +3,7 @@
 他的交互如下：
 
 ## 图：每个 block 代表一个月
-![block](./images/block.png)
+<img src="https://github.com/gdccwxx/Being-towards-death/blob/main/images/block.png" alt="block" style="width: 300px"/>
 需要手动点击更新，以确保有交互性
 
 ## 数：代表剩余时间
