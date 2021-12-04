@@ -1,5 +1,5 @@
 <script>
-	let name = 'Life Countdown Timer';
+	let name = 'Life Timer';
 </script>
 
 <header>
