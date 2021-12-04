@@ -7,10 +7,11 @@
 需要手动点击更新，以确保有交互性
 
 ## 数：代表剩余时间
-![number](./images/number.png)
+<img src="https://github.com/gdccwxx/Being-towards-death/blob/main/images/number.png" alt="number" style="width: 300px"/>
 可以直观的看到剩余时间
 
 ## 设置：首次个性化定制
+<img src="https://github.com/gdccwxx/Being-towards-death/blob/main/images/setting.png" alt="setting" style="width: 300px"/>
 定制你的时间
 
 # 使用
