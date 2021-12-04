@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    body {
+      width: 300px;
+      height: 600px;
+      position: relative;
+      padding: 10px;
+      box-sizing: border-box;
+      font-size: 0;
+    }
+
+    .title {
+      text-align: center;
+      height: 50px;
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .container-wrapper {
+      overflow-y: scroll;
+      height: 480px;
+    }
+
+    .month {
+      font-size: 12px;
+      margin-left: 20px;
+    }
+    .month span {
+      display: inline-block;
+      width: 18px;
+      text-align: center;
+    }
+    .year-wrapper {
+      width: 20px;
+      display: inline-block;
+      vertical-align: top;;
+    }
+    .year-wrapper span {
+      display: block;
+      width: 20px;
+      height: 21px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 21px;
+    }
+
+    section {
+      width: 260px;
+      display: inline-block;
+      vertical-align: top;;
+    }
+
+    section div {
+      width: 20px;
+      height: 20px;
+      border-right: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      display: inline-block;
+      font-size: 0;
+    }
+
+    section .past {
+      background-color: #f00;
+    }
+
+    footer {
+      position: absolute;
+      width: 300px;
+      height: 50px;
+      bottom: 0;
+      left: 10;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="title">倒计时(向死而生)</h1>
+  <div class="container-wrapper">
+    <div class="month">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>5</span>
+      <span>6</span>
+      <span>7</span>
+      <span>8</span>
+      <span>9</span>
+      <span>10</span>
+      <span>11</span>
+      <span>12</span>
+    </div>
+    <div class="main-container">
+      <div class="year-wrapper">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span>10</span>
+        <span>11</span>
+        <span>12</span>
+        <span>13</span>
+        <span>14</span>
+        <span>15</span>
+        <span>16</span>
+        <span>17</span>
+        <span>18</span>
+        <span>19</span>
+        <span>20</span>
+      </div>
+      <section id="counter">
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+        <div class="past"></div>
+      </section>
+    </div>
+  </div>
+  <footer>
+    <button>关闭</button>
+    <button>更新</button>
+  </footer>
+  <script src="./popup.js"></script>
+</body>
+
+</html>

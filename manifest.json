@@ -1,0 +1,10 @@
+{
+  "name": "Being-towards-death",
+  "version": "1.0",
+  "description": "Being-towards-death",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "life counter",
+    "default_popup": "public/index.html"
+  }
+}
