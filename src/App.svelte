@@ -101,8 +101,8 @@
 
 <style>
 	main {
-    padding: 10px;
 		width: 300px;
+		box-sizing: border-box;
 		height: 600px;
 		overflow: hidden;
 		position: relative;
