@@ -16,6 +16,7 @@
 
 # 使用
 由于作者没有 visa 卡，无法被谷歌插件市场认证，因此你可以这样做：
+
 1、下载 [build.zip](https://github.com/gdccwxx/Being-towards-death/build.zip)
 
 2、打开 chrome 浏览器
